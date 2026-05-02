@@ -13,6 +13,13 @@ body {
     background-color: #000;
 }
 
+p.menu { /* Menu hamburguer desativado */
+    display: none;
+    color: #dbdbdb;
+    font-size: 3rem;
+    margin-top: 15px;
+}
+
 /*  HEADER - INÍCIO */
 header {
     display: flex;
@@ -21,6 +28,7 @@ header {
     align-items: center;
     justify-content: space-around;
     height: 100%;
+    width: 100%;
 }
 
 header > h1 {
@@ -56,6 +64,10 @@ section.apresentacao {
     gap: 10px;
     padding-top: 100px;
     padding-left: 20px;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 250px;
 }
 
 section.apresentacao div {
@@ -108,10 +120,11 @@ section.apresentacao img {
 }
 
 .digitando {
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
-  min-width: 40ch; /* reserva espaço para toda a frase */
+    font-size: 1.7rem;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 40ch; /* reserva espaço para toda a frase */
 }
 
 .digitando::after {
@@ -252,7 +265,7 @@ main .sobre {
     grid-column: 1/-1;
     gap: 30px;
     align-items: center;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
 }
 
 /* - RESPONSIVIDADE - */
@@ -260,8 +273,12 @@ main .sobre {
 
 @media(max-width: 992px) {
 
-     .navegacao-primaria {
+    .navegacao-primaria {
         display: none;
+    }
+
+    p.menu { /* Menu hamburguer desativado */
+        display: block;
     }
     section.apresentacao {
         width: 100%;
@@ -304,4 +321,15 @@ main .sobre {
     .sobre-conteudo {
         grid-column: 1/-1;
     }
+
+    .sobre_info {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column: 1/-1;
+        gap: 30px;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+
 }
