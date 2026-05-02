@@ -125,7 +125,7 @@ section.apresentacao img {
 .digitando {
     font-size: 1.5rem;
     display: inline-block;
-    white-space: nowrap;
+    white-space: normal;
     overflow: hidden;
     min-width: 40ch; /* reserva espaço para toda a frase */
 }
@@ -306,12 +306,11 @@ main .sobre {
     }
 
     .digitando {
-        font-size: .8rem;
+        font-size: 0.8rem;
         display: inline-block;
-        white-space: normal;
+        white-space: normal; /* permite quebra */
         overflow: hidden;
-        min-width: 30ch; /* reserva espaço para toda a frase */
-        word-break: break-word;
+        max-width: 100%;
     }
 
     .sobre img {
