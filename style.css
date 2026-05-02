@@ -291,7 +291,7 @@ main .sobre {
     .digitando {
         font-size: 1rem;
         display: inline-block;
-        white-space: wrap;
+        white-space: normal;
         overflow: hidden;
         min-width: 27ch; /* reserva espaço para toda a frase */
     }
