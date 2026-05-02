@@ -310,7 +310,7 @@ main .sobre {
         display: inline-block;
         white-space: normal;
         overflow: hidden;
-        min-width: 27ch; /* reserva espaço para toda a frase */
+        min-width: 30ch; /* reserva espaço para toda a frase */
         word-break: break-word;
     }
 
