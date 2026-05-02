@@ -266,7 +266,15 @@ main .sobre {
     section.apresentacao {
         width: 100%;
         height: 100%;
-        
+
+    }
+
+    section.apresentacao div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
     }
 
     section.apresentacao img {
