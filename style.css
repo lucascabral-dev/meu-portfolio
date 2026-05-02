@@ -294,6 +294,7 @@ main .sobre {
         white-space: normal;
         overflow: hidden;
         min-width: 27ch; /* reserva espaço para toda a frase */
+        word-break: break-word;
     }
 
     .sobre img {
