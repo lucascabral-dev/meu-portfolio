@@ -29,3 +29,9 @@ function digitando_auto(element){
 
 const titulo = document.querySelector('.digitando');
 digitando_auto(titulo);
+
+const ativa_menu = document.querySelector(".fa-bars")
+
+ativa_menu.addEventListener('click', ()=>{
+    ativa_menu.classList.toggle('fa-x')
+})
