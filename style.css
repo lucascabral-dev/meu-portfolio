@@ -127,6 +127,7 @@ section.apresentacao img {
     display: inline-block;
     white-space: normal;
     overflow: hidden;
+    overflow-wrap: break-word;
     min-width: 40ch; /* reserva espaço para toda a frase */
 }
 
@@ -309,8 +310,8 @@ main .sobre {
         font-size: 0.8rem;
         display: inline-block;
         white-space: normal; /* permite quebra */
+        overflow-wrap: break-word;
         overflow: hidden;
-        max-width: 100%;
     }
 
     .sobre img {
