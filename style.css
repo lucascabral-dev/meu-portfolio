@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    animation: inicializar 1s forwards;
+    background-color: #000;
+}
+
+/*  HEADER - INÍCIO */
+header {
+    display: flex;
+    background-color: #000;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+header > h1 {
+    color: #dc3545;
+    font-size: 2.5rem;
+}
+
+header > h1 > span {
+    color: #FFF;
+}
+
+header .navegacao-primaria ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+header .navegacao-primaria li a {
+    padding: 10px;
+    color:#FFF;
+    font-size: 1.3rem;
+}
+
+/* TALVEZ PRECISE DE GRID */
+
+section.apresentacao {
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+section.apresentacao div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section.apresentacao h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 55%;
+    color: #F7F7F7F7;
+}
+
+section.apresentacao div p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #F7F7F7F7;
+    width: 30vw;
+}
+
+section.apresentacao div a {
+    color: #F7F7F7F7;
+    width: 150px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 0.1px solid white;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+section.apresentacao div a:hover {
+    background-color: #dbdbdb;
+    color: #1d1d1d;
+    width: 150px;
+    padding: 15px;
+    border: 0.1px solid white;
+    border-radius: 20px;
+    justify-self: start;
+    transition: 0.5s;
+}
+
+section.apresentacao img {
+    max-width: 100%;
+    margin-bottom: 40px;
+    border-bottom: 2px solid white;
+    box-shadow: 0px 8px 15px #dc3545; /* sombra abaixo */
+}
+
+.digitando {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 40ch; /* reserva espaço para toda a frase */
+}
+
+.digitando::after {
+  content: '|';
+  margin-left: 7px;
+  opacity: 1;
+  animation: piscar 0.8s infinite;
+}
+
+@keyframes inicializar {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes piscar {
+    from {
+        opacity: 1;
+        
+    }
+    to {
+        opacity: 0;
+        
+    }
+}
+
+/* SEÇÂO PRINCIPAL SOBRE MIM */
+
+main {
+    background-color: #111;
+    color: #dbdbdb;
+}
+
+main .sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.sobre_titulo {
+    margin: 30px 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.sobre_titulo h1 {
+    font-size: 2.5rem;
+    color: #dc3545;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sobre_titulo p {
+    color: #707070;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.sobre_titulo div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre_titulo span {
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #dc3545;
+}
+
+.sobre img {
+    cursor: pointer;
+    grid-row: 2;
+    max-width: 100%;
+    filter: blur(0);
+    transition: 0.5s;
+    border-bottom: 2px solid white;
+}
+
+.sobre img:hover {
+    cursor: pointer;
+    grid-row: 2;
+    max-width: 100%;
+    filter: blur(2px);
+    transition: 0.5s;
+}
+
+.sobre-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2/-1;
+    gap: 30px
+}
+
+.sobre_texto {
+    display: grid;
+    grid-column: 1/-1;
+    gap: 15px;
+}
+
+.sobre_texto h1 {
+    font-size: 2.3rem;
+    grid-column: 1/-1;
+}
+
+.sobre_texto h1::after {
+    content: '';
+    background-color: #dc3545;
+    height: 6px;
+    width: 200px;
+    margin: 20px 0;
+    display: block;
+    border-radius: 5px;
+}
+
+.sobre_texto p {
+    font-size: 1.3rem;
+    grid-row: 2;
+    grid-column: 1/-1;
+}
+
+.sobre_info {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+    gap: 15px;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/* - RESPONSIVIDADE - */
+/*| AVISO: Recomendo mudar isso futuramente para um arquivo CSS separado. |*/
+
+@media(max-width: 992px) {
+
+    section.apresentacao img {
+        display: none;
+    }
+
+    section.apresentacao {
+        background-image: url("dev-lucas-img.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+
+    .navegacao-primaria {
+        display: none;
+    }
+
+
+    .sobre img {
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+    .sobre-conteudo {
+        grid-column: 1/-1;
+    }
+}
