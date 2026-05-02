@@ -260,21 +260,27 @@ main .sobre {
 
 @media(max-width: 992px) {
 
+     .navegacao-primaria {
+        display: none;
+    }
+
     section.apresentacao img {
         display: none;
     }
 
-    section.apresentacao {
-        background-image: url("dev-lucas-img.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        
+    section.apresentacao div p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        color: #F7F7F7F7;
+        width: 70%;
     }
 
-    .navegacao-primaria {
-        display: none;
+    .digitando {
+        display: inline-block;
+        white-space: wrap;
+        overflow: hidden;
+        min-width: 28ch; /* reserva espaço para toda a frase */
     }
-
 
     .sobre img {
         grid-column: 1/-1;
