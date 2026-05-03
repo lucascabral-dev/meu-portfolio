@@ -357,13 +357,15 @@ main .sobre {
 
     section.apresentacao img {
         display: none;
+        gap: 20px;
     }
 
     section.apresentacao div p {
         font-family: 'Poppins', sans-serif;
         font-weight: 200;
         color: #F7F7F7F7;
-        width: 70%;
+        width: 100%;
+        max-width: 500px;
     }
 
     .digitando {
@@ -373,7 +375,7 @@ main .sobre {
         overflow-wrap: break-word;
         overflow: hidden;
         width: 100%;
-        height: 23vh;
+        min-height: 4em;
     }
 
     .sobre img {
