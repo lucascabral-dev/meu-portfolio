@@ -290,9 +290,13 @@ main .sobre {
     }
 
     section.apresentacao {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    section.apresentacao div {
+        align-items: flex-start;
+        text-align: left;
     }
 
     section.apresentacao img {
