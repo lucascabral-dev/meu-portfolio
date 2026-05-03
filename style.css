@@ -58,9 +58,9 @@ header .navegacao-primaria li a {
 section.apresentacao {
     background-color: #000;
     display: flex;
-    gap: 30px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-grow: 0;
     padding-top: 100px;
     height: 100%;
     width: 100%;
@@ -121,13 +121,13 @@ section.apresentacao img {
 }
 
 .digitando {
-    font-size: 2.5rem;
+    font-size: 4rem;
     display: inline-block;
     white-space: normal;
     overflow: hidden;
     overflow-wrap: break-word;
     width: 100%;
-    max-width: 500px;
+    max-width: 18ch;
     min-height: 3.5em;
 }
 
@@ -198,6 +198,7 @@ main .sobre {
 
 .sobre_titulo div {
     display: flex;
+    gap: 15px;
     align-items: center;
     justify-content: center;
 }
