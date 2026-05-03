@@ -399,6 +399,13 @@ main .sobre {
         font-size: 0.9rem;
     }
 
+    .meus-servicos {
+        padding: 20px;
+        color: #dbdbdb;
+    }
+
+
+
     .meus-servicos ul li {
         max-width: none;
         height: 100%;
