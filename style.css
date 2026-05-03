@@ -308,8 +308,8 @@ main .sobre {
     background-color: #363636;
     text-align: center;
     align-items: center;
-    max-width: 400px;
-    height: 100%;
+    max-width: 500px;
+    height: 400px;
     width: 100%;
     border: 1px solid transparent;
     transition: .5s;
@@ -407,7 +407,7 @@ main .sobre {
 
     .meus-servicos ul {
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
     }
 
     .meus-servicos ul li {
