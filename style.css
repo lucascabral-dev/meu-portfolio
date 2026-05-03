@@ -128,7 +128,9 @@ section.apresentacao img {
     white-space: normal;
     overflow: hidden;
     overflow-wrap: break-word;
-    max-width: 800px;
+    width: 100%;
+    max-width: 40ch;   /* controla leitura */
+    min-width: 40vw;  /* mínimo seguro */
 }
 
 .digitando::after {
