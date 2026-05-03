@@ -61,7 +61,7 @@ section.apresentacao {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
     padding-top: 100px;
     padding-left: 20px;
     height: 100%;
@@ -128,7 +128,7 @@ section.apresentacao img {
     white-space: normal;
     overflow: hidden;
     overflow-wrap: break-word;
-    min-width: 40ch; /* reserva espaço para toda a frase */
+    max-width: 800px;
 }
 
 .digitando::after {
