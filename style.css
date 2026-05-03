@@ -342,7 +342,7 @@ main .sobre {
 /* - RESPONSIVIDADE - */
 /*| AVISO: Recomendo mudar isso futuramente para um arquivo CSS separado. |*/
 
-@media(max-width: 1024px) {
+@media(max-width: 1200px) {
 
     .navegacao-primaria {
         display: none;
