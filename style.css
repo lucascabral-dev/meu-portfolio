@@ -127,7 +127,8 @@ section.apresentacao img {
     overflow: hidden;
     overflow-wrap: break-word;
     width: 100%;
-    max-width: 24ch; /* mínimo seguro */
+    max-width: 500px;
+    min-height: 3.5em;
 }
 
 .digitando::after {
@@ -372,7 +373,7 @@ main .sobre {
     }
 
     .digitando {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         display: inline-block;
         white-space: normal; /* permite quebra */
         overflow-wrap: break-word;
