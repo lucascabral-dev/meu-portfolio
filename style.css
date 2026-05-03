@@ -126,7 +126,7 @@ section.apresentacao img {
     overflow: hidden;
     overflow-wrap: break-word;
     width: 100%;
-    min-width: 50vw;  /* mínimo seguro */
+    min-width: 60vw;  /* mínimo seguro */
 }
 
 .digitando::after {
