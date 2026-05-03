@@ -404,7 +404,9 @@ main .sobre {
         color: #dbdbdb;
     }
 
-
+    .meus-servicos ul {
+        flex-direction: column;
+    }
 
     .meus-servicos ul li {
         max-width: none;
