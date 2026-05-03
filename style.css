@@ -352,7 +352,7 @@ main .sobre {
         align-items: flex-start;
         flex-direction: column;
         text-align: left;
-        padding: 30px;
+        padding: 20px;
     }
 
     section.apresentacao div {
@@ -362,7 +362,6 @@ main .sobre {
 
     section.apresentacao img {
         display: none;
-        gap: 20px;
     }
 
     section.apresentacao div p {
