@@ -130,7 +130,7 @@ section.apresentacao img {
     overflow-wrap: break-word;
     width: 100%;
     max-width: 40ch;   /* controla leitura */
-    min-width: 40vw;  /* mínimo seguro */
+    min-width: 50vw;  /* mínimo seguro */
 }
 
 .digitando::after {
@@ -417,4 +417,3 @@ main .sobre {
         width: 100%;
     }
 }
-
