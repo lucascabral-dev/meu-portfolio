@@ -295,6 +295,8 @@ main .sobre {
     gap: 30px;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 .meus-servicos ul li {
@@ -302,12 +304,13 @@ main .sobre {
     padding: 30px;
     border-radius: 6px;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
     background-color: #363636;
     text-align: center;
     align-items: center;
     max-width: 380px;
-    height: 450px;
+    height: 100%;
+    width: 100%;
     transition: .5s;
 }
 
