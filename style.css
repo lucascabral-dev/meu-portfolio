@@ -400,6 +400,6 @@ main .sobre {
 
     .meus-servicos ul li {
         max-width: none;
-        height: none;
+        height: 450px;
     }
 }
