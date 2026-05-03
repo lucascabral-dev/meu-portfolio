@@ -4,8 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -247,6 +247,7 @@ main .sobre {
 
 .sobre_texto h1 {
     font-size: 2.3rem;
+    font-family: 'Poppins', sans-serif;
     grid-column: 1/-1;
 }
 
@@ -275,6 +276,65 @@ main .sobre {
     align-items: center;
     font-size: 1.5rem;
 }
+
+/* AREA DE SERVIÇOS */
+
+.services {
+    margin-top: -30px;
+    padding: 60px;
+}
+
+.meus-servicos {
+    padding: 60px;
+    color: #dbdbdb;
+}
+
+.meus-servicos ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.meus-servicos ul li {
+    display: flex;
+    padding: 30px;
+    border-radius: 6px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #363636;
+    text-align: center;
+    align-items: center;
+    max-width: 380px;
+    height: 450px;
+    transition: .5s;
+}
+
+.meus-servicos ul li:hover{
+    border: 2px solid #dc3545;
+    transition: .5s;
+}
+
+.meus-servicos ul li i {
+    font-size: 2.3rem;
+    color: #dc3545;
+}
+
+.meus-servicos ul li h3 {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.meus-servicos ul li p {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
 
 /* - RESPONSIVIDADE - */
 /*| AVISO: Recomendo mudar isso futuramente para um arquivo CSS separado. |*/
