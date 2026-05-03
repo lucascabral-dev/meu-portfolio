@@ -58,7 +58,7 @@ header .navegacao-primaria li a {
 section.apresentacao {
     background-color: #000;
     display: flex;
-    gap: 100px;
+    gap: 30px;
     align-items: center;
     justify-content: center;
     padding-top: 100px;
@@ -86,7 +86,8 @@ section.apresentacao div p {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     color: #F7F7F7F7;
-    width: 30vw;
+    width: 100%;
+    max-width: 350px;
 }
 
 section.apresentacao div a {
@@ -347,7 +348,9 @@ main .sobre {
 
     section.apresentacao {
         align-items: flex-start;
+        flex-direction: column;
         text-align: left;
+        padding: 30px;
     }
 
     section.apresentacao div {
@@ -375,7 +378,7 @@ main .sobre {
         overflow-wrap: break-word;
         overflow: hidden;
         width: 100%;
-        min-height: 4em;
+        min-height: 3em;
     }
 
     .sobre img {
