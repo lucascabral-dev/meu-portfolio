@@ -289,11 +289,10 @@ main .sobre {
         display: block;
     }
 
-    section.apresentacao div {
+    section.apresentacao {
         display: flex;
         flex-direction: column;
         gap: 20px;
-        
     }
 
     section.apresentacao img {
