@@ -375,8 +375,7 @@ main .sobre {
         white-space: normal; /* permite quebra */
         overflow-wrap: break-word;
         overflow: hidden;
-        min-width: 70vw; 
-        min-height: 20vw;
+        width: 100%;
     }
 
     .sobre img {
