@@ -399,17 +399,7 @@ main .sobre {
     }
 
     .meus-servicos ul li {
-        display: flex;
-        padding: 30px;
-        border-radius: 6px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 30px;
-        background-color: #363636;
-        text-align: center;
-        align-items: center;
         max-width: none;
         height: none;
-        transition: .5s;
     }
 }
