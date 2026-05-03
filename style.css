@@ -129,7 +129,6 @@ section.apresentacao img {
     overflow: hidden;
     overflow-wrap: break-word;
     width: 100%;
-    max-width: 40ch;   /* controla leitura */
     min-width: 50vw;  /* mínimo seguro */
 }
 
