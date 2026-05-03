@@ -281,7 +281,7 @@ main .sobre {
 
 .services {
     margin-top: -30px;
-    padding: 60px;
+    padding: 20px;
 }
 
 .meus-servicos {
@@ -308,14 +308,15 @@ main .sobre {
     background-color: #363636;
     text-align: center;
     align-items: center;
-    max-width: 380px;
+    max-width: 400px;
     height: 100%;
     width: 100%;
+    border: 1px solid transparent;
     transition: .5s;
 }
 
 .meus-servicos ul li:hover{
-    border: 2px solid #dc3545;
+    border: 1px solid #dc3545;
     transition: .5s;
 }
 
@@ -406,6 +407,7 @@ main .sobre {
 
     .meus-servicos ul {
         flex-direction: column;
+        gap: 20px;
     }
 
     .meus-servicos ul li {
