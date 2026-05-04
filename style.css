@@ -13,13 +13,6 @@ body {
     background-color: #000;
 }
 
-p.menu { /* Menu hamburguer desativado */
-    display: none;
-    color: #dbdbdb;
-    font-size: 3rem;
-    margin-top: 15px;
-}
-
 /*  HEADER - INÍCIO */
 header {
     display: flex;
@@ -329,90 +322,4 @@ main .sobre {
 .meus-servicos ul li p {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
-}
-
-
-
-
-
-/* - RESPONSIVIDADE - */
-/*| AVISO: Recomendo mudar isso futuramente para um arquivo CSS separado. |*/
-
-@media(max-width: 1000px) {
-
-    .navegacao-primaria {
-        display: none;
-    }
-
-    p.menu { /* Menu hamburguer desativado */
-        display: block;
-    }
-
-    section.apresentacao {
-        align-items: flex-start;
-        flex-direction: column;
-        text-align: left;
-        padding: 20px;
-    }
-
-    section.apresentacao div {
-        align-items: flex-start;
-        text-align: left;
-    }
-
-    section.apresentacao img {
-        display: none;
-    }
-
-    section.apresentacao div p {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 200;
-        color: #F7F7F7F7;
-        width: 100%;
-        max-width: 500px;
-    }
-
-    .digitando {
-        font-size: 1rem;
-        display: inline-block;
-        white-space: normal; /* permite quebra */
-        overflow-wrap: break-word;
-        overflow: hidden;
-        width: 100%;
-        min-height: 4em;
-    }
-
-    .sobre img {
-        grid-column: 1/-1;
-        justify-self: center;
-    }
-    .sobre-conteudo {
-        grid-column: 1/-1;
-    }
-
-    .sobre_info {
-        margin-top: 30px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column: 1/-1;
-        gap: 30px;
-        align-items: center;
-        font-size: 0.9rem;
-    }
-
-    .meus-servicos {
-        padding: 20px;
-        color: #dbdbdb;
-    }
-
-    .meus-servicos ul {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .meus-servicos ul li {
-        max-width: none;
-        height: 100%;
-        width: 100%;
-    }
 }

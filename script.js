@@ -1,3 +1,5 @@
+
+// Efeito de digitação para o site.
 function digitando_auto(element){
     const text = ">_ Python developer and Web developer."; 
     // repare nos dois espaços iniciais
@@ -30,6 +32,7 @@ function digitando_auto(element){
 const titulo = document.querySelector('.digitando');
 digitando_auto(titulo);
 
+// Responsividade com menu para celulares.
 const ativa_menu = document.querySelector(".fa-bars")
 
 ativa_menu.addEventListener('click', ()=>{
