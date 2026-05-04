@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
+
 header > nav > i#menu { /* Menu hamburguer desativado */
     display: none;
     color: #dbdbdb;
@@ -24,8 +26,8 @@ header > nav > i#menu { /* Menu hamburguer desativado */
         flex-direction: column;
         z-index: 5;
         padding: 30px;
-        font-size: 1.6rem;
-        font-weight: bold;
+        font-size: 0.8rem;
+        font-family: 'Poppins', sans-serif;
         border-radius: 0 0 30px 30px;
         right: 25px;
         animation: abrir_secao .35s ease-in-out forwards;
