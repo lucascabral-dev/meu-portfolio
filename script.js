@@ -36,7 +36,7 @@ digitando_auto(titulo);
 const ativa_menu = window.document.querySelector(".fa-bars")
 const nav_menu = window.document.querySelector("header .navegacao-primaria")
 
-ativa_menu.addEventListener('click', ()=>{
+ativa_menu.addEventListener('click', () => {
     ativa_menu.classList.toggle('fa-x')
     nav_menu.classList.toggle('on')
 })
