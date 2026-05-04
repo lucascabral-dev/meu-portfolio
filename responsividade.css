@@ -64,7 +64,7 @@ header > nav > i#menu { /* Menu hamburguer desativado */
         overflow-wrap: break-word;
         overflow: hidden;
         width: 100%;
-        min-height: 4em;
+        min-height: 5em;
     }
 
     .sobre img {
