@@ -33,17 +33,34 @@ header > h1 > span {
     color: #FFF;
 }
 
-header .navegacao-primaria ul {
+header nav > .navegacao-primaria {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
     align-items: center;
 }
 
 header .navegacao-primaria li a {
-    padding: 10px;
     color:#FFF;
-    font-size: 1.3rem;
+    width: 0px;
+    height: 0px;
+    font-size: 1.5rem;
+}
+
+header .navegacao-primaria li a::after {
+    display: block;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-bottom: 4px solid transparent;
+    transition: .8s;
+}
+
+header .navegacao-primaria li a:hover::after {
+    width: 100%;
+    height: 0px;
+    padding: 0px;
+    border-bottom: 4px solid #dc3545;
 }
 
 /* TALVEZ PRECISE DE GRID */
@@ -129,28 +146,6 @@ section.apresentacao img {
   margin-left: 7px;
   opacity: 1;
   animation: piscar 0.8s infinite;
-}
-
-@keyframes inicializar {
-    from {
-        opacity: 0;
-        transform: translate3d(0, -60px, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
-
-@keyframes piscar {
-    from {
-        opacity: 1;
-        
-    }
-    to {
-        opacity: 0;
-        
-    }
 }
 
 /* SEÇÂO PRINCIPAL SOBRE MIM */

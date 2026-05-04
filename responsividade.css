@@ -1,20 +1,36 @@
-p.menu { /* Menu hamburguer desativado */
+header > nav > i#menu { /* Menu hamburguer desativado */
     display: none;
     color: #dbdbdb;
     font-size: 3rem;
     margin-top: 15px;
+    min-width: 40px;
 }
 
 @media(max-width: 1000px) {
 
-    .navegacao-primaria {
+    header nav .navegacao-primaria {
         display: none;
     }
 
-    p.menu { /* Menu hamburguer desativado */
+    header > nav > i#menu { 
         display: block;
     }
 
+    header nav .navegacao-primaria.on {
+        background-color: #706e6e3a;
+        display: flex;
+        position: absolute;
+        top: 85px;
+        flex-direction: column;
+        z-index: 5;
+        padding: 30px;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border-radius: 0 0 30px 30px;
+        right: 25px;
+        animation: abrir_secao .35s ease-in-out forwards;
+    }
+   
     section.apresentacao {
         align-items: flex-start;
         flex-direction: column;

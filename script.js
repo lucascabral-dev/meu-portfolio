@@ -33,8 +33,10 @@ const titulo = document.querySelector('.digitando');
 digitando_auto(titulo);
 
 // Responsividade com menu para celulares.
-const ativa_menu = document.querySelector(".fa-bars")
+const ativa_menu = window.document.querySelector(".fa-bars")
+const nav_menu = window.document.querySelector("header .navegacao-primaria")
 
 ativa_menu.addEventListener('click', ()=>{
     ativa_menu.classList.toggle('fa-x')
+    nav_menu.classList.toggle('on')
 })
