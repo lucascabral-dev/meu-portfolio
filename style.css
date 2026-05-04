@@ -137,8 +137,8 @@ section.apresentacao img {
     overflow: hidden;
     overflow-wrap: break-word;
     width: 100%;
-    max-width: 18ch;
-    min-height: 4.5em;
+    max-width: 14ch;
+    min-height: 4em;
 }
 
 .digitando::after {
