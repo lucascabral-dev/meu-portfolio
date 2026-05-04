@@ -26,7 +26,7 @@ header > nav > i#menu { /* Menu hamburguer desativado */
         flex-direction: column;
         z-index: 5;
         padding: 30px;
-        font-size: 0.8rem;
+        font-size: 0.5rem;
         font-family: 'Poppins', sans-serif;
         border-radius: 0 0 30px 30px;
         right: 25px;
