@@ -416,4 +416,38 @@ div.container-flex > div.container-flex2 > div > p {
     width: 100%;
 }
 
+section.resume > div.habilidades {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    margin: auto;
+    color: #dbdbdb;
+    height: auto;
+    width: 390px;
+    font-family: 'Poppins', sans-serif;
+}
 
+section.resume > div.habilidades > div > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #363636;
+     border: 1px solid #dc3545;
+}
+
+section.resume > div.habilidades > h2 {
+    font-size: 1.5rem;
+    background-color: #dc3545;
+    padding: 20px;
+    width: 15ch;
+}
+
+section.resume > div.habilidades > div > ul > li {
+    font-size: 1.6rem;
+}
+
+section.resume > div.habilidades > div > ul > li > i {
+    color: #ffff51;
+}
