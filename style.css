@@ -197,6 +197,7 @@ main .sobre {
     width: 20px;
     border-radius: 50%;
     background-color: #dc3545;
+    color: #dbdbdb;
 }
 
 .sobre img {
@@ -318,3 +319,99 @@ main .sobre {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
 }
+
+section.resume {
+    background-color: #111;
+}
+
+.resume-titulo {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+.resume-titulo > div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-titulo > h1 {
+    font-size: 2.5rem;
+    color: #dc3545;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resume-titulo > p {
+    color: #707070;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.resume-titulo span {
+    display: block;
+    height: 20px;
+    width: 21px;
+    border-radius: 50%;
+    background-color: #dc3545;
+    color: #dbdbdb;
+    text-align: center;
+}
+
+div.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container-flex > div.container-flex2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+div.container-flex > div.container-flex2 > h2 {
+    background-color: #dc3545;
+    color: #dbdbdb;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    width: 14ch;
+}
+
+div.container-flex > div.container-flex2 > div {
+    background-color: #363636;
+    color: #dbdbdb;
+    padding: 20px;
+    border-radius: 6px;
+    height: auto;
+    width: 100%;
+}
+
+div.container-flex > div.container-flex2 > div > h4 {
+    color: #dc3545;
+    font-size: 1.5rem;
+}
+
+div.container-flex > div.container-flex2 > div > h3 {
+    color: #dbdbdb;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.container-flex > div.container-flex2 > div > p {
+    color: #dbdbdb;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+

@@ -71,6 +71,7 @@ header > nav > i#menu { /* Menu hamburguer desativado */
         grid-column: 1/-1;
         justify-self: center;
     }
+    
     .sobre-conteudo {
         grid-column: 1/-1;
     }
