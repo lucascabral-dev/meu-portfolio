@@ -378,6 +378,7 @@ div.container-flex > div.container-flex2 {
     min-width: 300px;
     max-width: 500px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 div.container-flex > div.container-flex2 > h2 {
